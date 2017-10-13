@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    // "outFile": "./dist/app.js",
+    // "outDir": "./dist/",
+    "sourceRoot": "./src/",
+    "rootDir": "./src/",
+    "sourceMap": true,
+    "module": "commonjs"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

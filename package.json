@@ -1,0 +1,24 @@
+{
+  "name": "biglittleuniverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "build2": "browserify src/app.ts -p [ tsify ] > dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pixi.js": "^4.5.6",
+    "browserify": "^14.4.0",
+    "http-server": "^0.10.0",
+    "pixi.js": "^4.5.6",
+    "ts-loader": "^2.3.7",
+    "tsify": "^3.0.3",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0"
+  }
+}
